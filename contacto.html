@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <h1 id="encabezado"> Formulario para ser Héroe</h1>
+    <section>
+        <form action="procesarPeticion.jsp" method="get">
+            <fieldset>
+            <legend id="cabeza">Formulario de contacto</legend>
+
+                <label for="nombre"> Nombre: </label>
+                <input id="nombre "type="text" name="nombre">
+                <br/>
+                <br/>
+                <label for="edad"> Edad: </label>
+                <input id="edad"type="text" name="edad">
+                <br/>
+                <br/>
+                <label for="nickhero"> Nick Héroe: </label>
+                <input id="nickhero" type="text" name="nickhero">
+                <br/>
+                <br/>
+                <label for="password"> Password:</label>
+                <input id="pass" type="password" name="pass">
+                <br/>
+                <br/>
+                <label for="comida"> Comida favorita: </label> <br/>
+                <input type="radio" name="comida" value="Arroz con pollo"/> Arroz con pollo<br/>
+                <input type="radio" name="comida" value="Tallarines fritos"/> Tallarines fritos<br/>
+                <input type="radio" name="comida" value="Algas wakame"/> Algas wakame<br/>
+                <input type="radio" name="comida" value="Bizcocho de chocolate"/> Bizcocho de chocolate<br/>
+                <input type="radio" name="comida" value="Sopa de tomate"/> Sopa de tomate<br/>
+                
+
+                <input type="submit" value="Enviar datos">
+            
+
+
+        </fieldset>
+        </form>
+    </section>
+    
+</body>
+</html>

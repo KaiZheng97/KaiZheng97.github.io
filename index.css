@@ -1,0 +1,202 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+body{
+    margin: 0;
+
+
+    
+}
+
+h1{font-size: 2.8em;}
+h2{font-size: 2.0em;}
+h3{font-size: 1.8em;}
+p{font-size: 1.3em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 15%;
+    padding: 20px 30px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow : 2px 2px 10px  rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: rgb(88, 0, 0);
+    padding-left: 30px;
+
+}
+
+button:hover{
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 15%;
+    padding: 20px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow : 1px 2px 10px -1px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: rgba(163, 0, 0, 0.959);
+    padding-left: 30px;
+
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 30px;
+}
+
+header{
+    background-color: rgb(235, 235, 235);
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+   font-style: italic;
+    font-size: 60px;
+    
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+    padding-left: 10px;
+
+
+}
+
+header nav{
+    display: inline;
+    flex-direction:row;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+header a{
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(136, 0, 0, 0.8);
+
+
+}
+
+header a:hover{
+
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(206, 0, 0);
+    
+    
+
+}
+
+
+#hero{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 70vh;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("media/city.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    
+}
+
+#hero h1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 8vh;
+}
+
+#importante{
+    padding-top: 30px;
+    background-color: rgba(255, 252, 252, 0.5);
+}
+#noticias{
+    text-align: left;
+    
+    
+}
+
+#noticias h1{
+    color: black;
+    background-image: url(media/news.jpg);
+    font-style: oblique;
+    border-radius: 18px;
+    text-align: center;
+    margin-top: 0%;
+    padding-top: 5px;
+}
+
+#noticias .container{
+    padding: 200px 12px;
+    
+}
+
+#heroes{
+    text-align: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
+#heroes h1{
+    background-image: url(media/news.jpg);
+    font-style: oblique;
+    border-radius: 18px;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 5px;
+    color: black;
+
+}
+
+#imagenes{
+    display: flex;
+    width: 1200px ;
+    height: 800px;
+}
+
+#imagenes img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .8s ease;
+}
+
+#imagenes img:hover{
+    cursor: cell;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%), brightness(120%);
+}
+
+#piefoto p{
+    text-align: left;
+    font-weight: bold;
+    
+    border-radius: 25px;
+    background-size: 10px;
+}
+
+
