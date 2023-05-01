@@ -3,44 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <title>Contáctanos</title>
-    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <p class="logo">Marvel Heroes</p>
+            <nav> 
+                
+                <a href="index.html">Inicio</a>
+                <a href="https://goo.gl/maps/86W7pNTQD7FniDbh9" target="_blank">Localización</a>
+                <a href="presentacion.html">Quienes somos</a>
+                <a href="actuacion.html">Áreas de actuación</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
     <h1 id="encabezado"> Formulario para ser Héroe</h1>
-    <section>
+    <section id="parte1">
         <form action="procesarPeticion.jsp" method="get">
             <fieldset>
             <legend id="cabeza">Formulario de contacto</legend>
+                <br/>
 
                 <label for="nombre"> Nombre: </label>
-                <input id="nombre "type="text" name="nombre">
-                <br/>
-                <br/>
-                <label for="edad"> Edad: </label>
-                <input id="edad"type="text" name="edad">
-                <br/>
-                <br/>
+                    <input id="nombre "type="text" name="nombre">
+                        <br/>
+                        <br/>
+                <label for="edad" min="18" max="120" step="1" placeholder="Edad" required> Edad: </label>
+                    <input id="edad"type="text" name="edad">
+                        <br/>
+                        <br/>
                 <label for="nickhero"> Nick Héroe: </label>
-                <input id="nickhero" type="text" name="nickhero">
-                <br/>
-                <br/>
+                    <input id="nickhero" type="text" name="nickhero"required>
+                        <br/>
+                        <br/>
                 <label for="password"> Password:</label>
-                <input id="pass" type="password" name="pass">
-                <br/>
-                <br/>
+                    <input id="pass" type="password" name="pass" required>
+                        <br/>
+                        <br/>
                 <label for="comida"> Comida favorita: </label> <br/>
-                <input type="radio" name="comida" value="Arroz con pollo"/> Arroz con pollo<br/>
-                <input type="radio" name="comida" value="Tallarines fritos"/> Tallarines fritos<br/>
-                <input type="radio" name="comida" value="Algas wakame"/> Algas wakame<br/>
-                <input type="radio" name="comida" value="Bizcocho de chocolate"/> Bizcocho de chocolate<br/>
-                <input type="radio" name="comida" value="Sopa de tomate"/> Sopa de tomate<br/>
-                
-
-                <input type="submit" value="Enviar datos">
+                    <input type="radio" name="comida" value="Arroz con pollo"/> Arroz con pollo<br/>
+                    <input type="radio" name="comida" value="Tallarines fritos"/> Tallarines fritos<br/>
+                    <input type="radio" name="comida" value="Algas wakame"/> Algas wakame<br/>
+                    <input type="radio" name="comida" value="Bizcocho de chocolate"/> Bizcocho de chocolate<br/>
+                    <input type="radio" name="comida" value="Sopa de tomate"/> Sopa de tomate<br/>
+                    <br/>
+                <label for="habilidades">habilidades</label>
+                    <br />	
+                    <input type="checkbox" name="habilidades" value="volar"/>Volar<br />	
+                    <input type="checkbox" name="habilidades" value="rayos laser" />rayos laser<br />	
+                    <input type="checkbox" name="habilidades" value="super fuerza" />Super fuerza<br />	
+                    <input type="checkbox" name="habilidades" value="telepatia" />Telepatia <br />	
+                    <br/>
             
+            
+            </fieldset>
+            <br/> <br/>
+
+            <fieldset>
+                <legend id="segundo"> Cuentanos sobre ti</legend>
+                <br/> <br/>
+                <label for="miedos"> Qué miedos tienes</label>
+                <select name="miedos" id="miedos">
+                    <option value="arañas">arañas</option>
+                    <option value="monstruos acuaticos">monstruos acuaticos</option>
+                    <option value="oscuridad">oscuridad</option>
+                    <option value="soledad y ansiedad">soledad y ansiedad</option>
+                    <option value="un edificio en llamas"> edificio en llamas</option>
+                </select>
+                <br/>
+                <br/>
+                <label for="comentario">Comentanos un poco más sobre ti:</label>
+                <br/><br/>
+                <textarea></textarea>
+                <br/> <br/>
+                <label for ="nacimiento">Pon tu fecha de nacimiento</label>
+                <input type="date" name="nacimiento"/>
+                <br/>
+                <br/>
+                <label for="telefono"> Pon tu número de teléfono:</label>
+                <input type="tel" name="telefono" id="telefono" required>
+                <br/>
+                <br/>
+                <label for="web">Tu pagina web favorita</label>
+                <input type="text" name="web" placeholder="inserte web" required>
+                <br/>
+                <br/>
+                <input type="submit" value="Enviar datos">
 
 
-        </fieldset>
+            </fieldset>
+
         </form>
     </section>
     

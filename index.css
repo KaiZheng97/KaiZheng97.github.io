@@ -200,3 +200,200 @@ header a:hover{
 }
 
 
+/* presentacion css */
+
+.presentation{
+     
+    color: whitesmoke;
+    align-items: center;
+    border-width: 10px;
+    margin: 2vh;
+    flex-direction: row;
+    padding: 2vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+  
+  
+     
+
+}
+
+
+.imagenderecha{
+    float: right;
+    max-width: 800px;
+    max-height: 600px;
+
+}
+
+.parraf{
+    float: left;
+    text-align: left;
+
+    
+    
+}
+#titulo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+    margin: 3vh;
+    background-color: red;
+    padding: 3vh;
+    font-size: 4em;
+    font-style: italic;
+
+}
+
+
+nav ul {
+    display: none; /* Oculta la lista por defecto */
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  nav li {
+    display: block;
+    padding-top: 5px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 0px;
+  }
+  
+  nav a:hover + ul,
+  nav ul:hover {
+    display: block; /* Muestra la lista cuando se
+     pasa el ratón sobre el enlace */
+  }
+
+/*actuacion*/
+
+  .actuacion{
+    
+
+
+  }
+  .actuacion h1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: red;
+    background-color: black;
+  }
+  
+  .left-section {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 37, 37);
+  }
+  
+
+  /* Estilos para el texto */
+  .left-section p {
+    text-align: justify;
+    font-size: 3em;
+    line-height: 1.5;
+
+  }
+
+  /* Estilos para el aside */
+  .right-aside {
+    float: right;
+    width: 40%;
+    box-sizing: border-box;
+  }
+
+  /* Estilos para la imagen */
+  .right-aside img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+/* formulario*/
+
+#encabezado {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    text-align: left;
+  }
+  
+  /* Estilo para la sección 1 */
+  #parte1 {
+    margin: 2.5 rem;
+    background-color: aquamarine;
+    
+  }
+  
+  /* Estilo para el formulario */
+  form {
+    font-size: 1.6rem;
+  }
+  
+  /* Estilo para los fieldsets */
+  fieldset {
+    border: 2px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  legend {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilo para las etiquetas de los campos de entrada */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilo para los campos de entrada */
+  input[type="text"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="email"],
+  textarea {
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    width: 2.8;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(3.0);
+    
+  }
+  
+  /* Estilo para el botón de enviar */
+  input[type="submit"] {
+    background-color: #000dbd;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  select{
+    height: 50px;
+    font-size: 20px;
+
+  }
+ 
+  
+ 
