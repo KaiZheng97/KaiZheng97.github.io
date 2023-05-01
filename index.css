@@ -375,7 +375,7 @@ nav ul {
   input[type="radio"],
   input[type="checkbox"] {
     margin-right: 0.5rem;
-    transform: scale(3.0);
+    transform: scale(2.);
     
   }
   
